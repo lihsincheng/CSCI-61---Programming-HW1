@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     vector<pair<char, char>> cards = {
-        {'A', 'S'}, {'K', 'H'}, {'2', 'D'}, {'J', 'C'}, {'A', 'S'}  // duplicate
+        {'A', 'S'}, {'K', 'H'}, {'2', 'D'}, {'J', 'C'}, {'A', 'S'}  //duplicate test
     };
 
     cout << "Checking card uniqueness..." << endl;
