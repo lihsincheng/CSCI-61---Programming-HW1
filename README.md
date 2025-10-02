@@ -1,4 +1,4 @@
-# CSCI-61---Programming-HW1
+# CSCI-61---Programming-Standard Template Library
 1. Another way to store collection of items is in a keyed bag. In this type of container, whenever an item is added, the programmer using the keyed bag also provides an integer called the key. Each item added to the keyed bag must have a unique key; two items cannot have the same key. When the programmer wants to remove an item from a keyed bag, the key of the item must be specified, rather than the item itself. You are to implement the KeyedBag class using a vector of pair. Your implementation should be a template class that depends on the data types of the keys and the data type of the underlying data. The class interface should have the following:
 A function to add an item.
 A function to remove an item.
