@@ -1,9 +1,20 @@
 #include "card_utils.h"
 #include <iostream>
 using namespace std;
+// Used CPlusPlus.com for help
+#include <vector>
+#include <utility>
+#include <algorithm>
+
+using namespace std;
+
+
+
+
 
 int main() {
-    vector<pair<char, char>> cards = {
+
+        vector<pair<char, char>> cards = {
         {'A', 'S'}, {'K', 'H'}, {'2', 'D'}, {'J', 'C'}, {'A', 'S'}  //duplicate test
     };
 
